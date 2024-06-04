@@ -1,6 +1,11 @@
-body
+/*body
 {
     background-color: #161b22;
+}*/
+
+.markdown-body
+{
+    color: white;
 }
 
 zero-md
