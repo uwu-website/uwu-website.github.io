@@ -14,7 +14,9 @@ Example will be listed down below
 # Installing
 
 - Using `install.sh`
-- Manually `g++ -o main main.cpp -ldl`
+- Manually:
+    `g++ -o main main.cpp -ldl`
+    `g++ -o main main.cpp -ldl`
 
 # Authors
 
