@@ -15,7 +15,7 @@ Example will be listed down below
 
 ### Using install.sh script
     bash install.sh
-### Manually:
+### Manually (with sudo):
     mkdir /usr/share/UwU/plugins/
     g++ -o main main.cpp -ldl
     cp ./main /bin/uwu
