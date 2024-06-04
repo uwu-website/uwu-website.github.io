@@ -13,10 +13,12 @@ Example will be listed down below
 
 # Installing
 
-### Using `install.sh`
+### Using install.sh script
+    bash install.sh
 ### Manually:
-`g++ -o main main.cpp -ldl`
-`other command`
+    mkdir /usr/share/UwU/plugins/
+    g++ -o main main.cpp -ldl
+    cp ./main /bin/uwu
 
 # Authors
 
