@@ -15,8 +15,8 @@ Example will be listed down below
 
 ### Using `install.sh`
 ### Manually:
-    `g++ -o main main.cpp -ldl`
-    `other command`
+`g++ -o main main.cpp -ldl`
+`other command`
 
 # Authors
 
