@@ -20,6 +20,29 @@ Example will be listed down below.
     g++ -o main main.cpp -ldl
     cp ./main /bin/uwu
 
+# Writing plugins
+
+As i said previously is's easy to write plugins for UwU.
+
+Here is the example:
+
+    #include <iostream>
+    #include <string>
+    #include <cpr/cpr.h>
+
+    #include <UwU/defs.cpp>
+
+    using namespace std;
+
+    extern "C" 
+    {
+        int plugin_start(string url, string protocol, map<string, string> postparams) 
+        {
+            cout << INFO << "Hello from my plugin!" << endl;
+            return 0;
+        }
+    }
+
 # Authors
 
 - [`@TryH4ckM3`](https://www.github.com/Try-H4ck-M3)
